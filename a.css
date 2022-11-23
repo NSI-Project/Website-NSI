@@ -1,0 +1,15 @@
+
+.square {
+  height: 300px;
+  width: 300px;
+  background-color: #f8f7f5;
+  border-radius: 10px;
+  position: relative; left: 35px; top:56px; 
+  margin: 0 auto;
+  transition: transform .2s;
+  /* To change the position of the square */
+}
+
+.square:hover {
+    transform: scale(1.1); 
+  }
