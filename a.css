@@ -1,4 +1,4 @@
-.pouet {
+.square {
     height: 300px;
     width: 300px;
     background-color: #e4a528;
@@ -9,6 +9,6 @@
     /* To change the position of the square */
   }
   
-  .pouet:hover {
+  .square:hover {
       transform: scale(1.055); 
     }
