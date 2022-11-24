@@ -1,0 +1,52 @@
+aside {
+    position: fixed;
+    width: 200px;
+    padding: 15px;
+    border: 1px black solid;
+    border-radius: 8px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    list-style: none;
+    display: block;
+  }
+  nav ul li:not(:last-child) {
+    border-bottom: 1px #d6d6d6 solid;
+  }
+  nav ul li a {
+    display: block;
+    padding: 8px 5px;
+    text-decoration: none;
+    color: #346abf !important;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .wrapper {
+    padding-left: 260px;
+  }
+  section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #346abf;
+    color: white;
+  }
+  #header {
+    height: 150px;
+  }
+  #presentation {
+    height: 400px;
+  }
+  #caracteristiques {
+    height: 400px;
+  }
+  #avis {
+    height: 800px;
+  }
+  #commander{
+    height: 100px;
+  }
