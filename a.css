@@ -1,11 +1,10 @@
 .square {
-    height: 200px;
-    width: 200px;
+    height: 280px;
+    width: 230px;
     background-color: #e4a528;
     border-radius: 10px;
-    position: fixed; left: 40px; top:400px; 
-    margin: 0 auto;
     transition: transform .2s;
+    align-items: center;
     /* To change the position of the square */
   }
   
@@ -15,12 +14,12 @@
 
 
 .square1 {
-    height: 200px;
-    width: 200px;
+    height: 280px;
+    width: 230px;
     background-color: #e4a528;
     border-radius: 10px;
     margin: 0 auto;
-    position: fixed; left:290px; top:400px;
+    position: fixed; left:360px; top:400px;
     transition: transform .2s;
     /* To change the position of the square */
   }
@@ -28,3 +27,48 @@
 .square1:hover {
     transform: scale(1.055); 
 }
+
+.square2 {
+    height: 230px;
+    width: 200px;
+    background-color: #e4a528;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: fixed; left:880px; top:400px;
+    transition: transform .2s;
+    /* To change the position of the square */
+  }
+  
+.square2:hover {
+    transform: scale(1.055); 
+}
+
+.square3 {
+    height: 230px;
+    width: 200px;
+    background-color: #e4a528;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: fixed; left:810px; top:400px;
+    transition: transform .2s;
+    /* To change the position of the square */
+  }
+  
+.square3:hover {
+    transform: scale(1.055); 
+}       
+
+.square4 {
+    height: 230px;
+    width: 200px;
+    background-color: #e4a528;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: fixed; left:1030px; top:400px;
+    transition: transform .2s;
+    /* To change the position of the square */
+  }
+  
+.square4:hover {
+    transform: scale(1.055); 
+}       
