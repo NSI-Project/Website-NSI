@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'monofonto';
+    src: url(monofonto\ rg.otf)
+}
+
+p1 {
+    font-family: "monofonto";
+}
