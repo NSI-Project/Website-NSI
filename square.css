@@ -1,0 +1,80 @@
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.square {
+    height: 210px;
+    width: 160px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: transform .2s;
+    transition: background-color .2s;
+    margin: 10px;
+}
+
+.square:hover {
+    transform: scale(1.055);
+    background-color: #08246c;
+}
+
+.square1 {
+    height: 210px;
+    width: 160px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: transform .2s;
+    transition: background-color .2s;
+    margin: 10px;
+}
+
+.square1:hover {
+    transform: scale(1.055);
+    background-color: #ffb404;
+}
+
+.square2 {
+    height: 210px;
+    width: 160px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: transform .2s;
+    transition: background-color .2s;
+    margin: 10px;
+}
+
+.square2:hover {
+    transform: scale(1.055);
+    background-color: #e83c8c;
+}
+
+.square3 {
+    height: 210px;
+    width: 160px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: transform .2s;
+    transition: background-color .2s;
+    margin: 10px;
+}
+
+.square3:hover {
+    transform: scale(1.055);
+    background-color: #88bc04;
+}
+
+.square4 {
+    height: 210px;
+    width: 160px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: transform .2s;
+    transition: background-color .2s;
+    margin: 10px;
+}
+
+.square4:hover {
+    transform: scale(1.055);
+    background-color: #903c84;
+}
