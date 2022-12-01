@@ -1,8 +1,25 @@
 @font-face {
     font-family: 'monofonto';
-    src: url(monofonto\ rg.otf)
+    src: url(MADE\ TOMMY\ Regular_PERSONAL\ USE.otf)
+    /* fonts a revoir */
 }
-
 p1 {
     font-family: "monofonto";
+    
+}
+h1 {
+    height: 260px;
+    width: 210px;
+    font-family: "monofonto";
+    padding-top: 25px;
+    margin: auto;
+    text-align: center;
+    color: #232323;
+    font-size: 20px;
+    white-space: 1px;
+    font-weight: 1;
+}   
+h1:hover{
+    color: white;
+    
 }
