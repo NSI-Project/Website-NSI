@@ -1,80 +1,71 @@
 #container {
-    display: flex;
-    justify-content: center;
-    margin-top: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
 }
 
 .square {
-    height: 210px;
-    width: 160px;
-    background-color: #f8f7f1;
-    border-radius: 10px;
-    transition: transform .2s;
-    transition: background-color .2s;
-    margin: 10px;
+  height: 260px;
+  width: 210px;
+  background-color: #f8f7f1;
+  border-radius: 10px;
+  transition: background-color .2s;
+  margin: 15px;
 }
 
 .square:hover {
-    transform: scale(1.055);
-    background-color: #08246c;
+  transform: scale(1.025);
+  background-color: #045255;
 }
 
 .square1 {
-    height: 210px;
-    width: 160px;
-    background-color: #f8f7f1;
-    border-radius: 10px;
-    transition: transform .2s;
-    transition: background-color .2s;
-    margin: 10px;
+  height: 260px;
+  width: 210px;
+  background-color: #f8f7f1;
+  border-radius: 10px;
+  transition: background-color .2s;
+  margin: 15px;
 }
 
 .square1:hover {
-    transform: scale(1.055);
-    background-color: #ffb404;
+  background-color: #ffb404;
 }
 
 .square2 {
-    height: 210px;
-    width: 160px;
-    background-color: #f8f7f1;
-    border-radius: 10px;
-    transition: transform .2s;
-    transition: background-color .2s;
-    margin: 10px;
+  height: 260px;
+  width: 210px;
+  background-color: #f8f7f1;
+  border-radius: 10px;
+  transition: background-color .2s;
+  margin: 15px;
 }
 
 .square2:hover {
-    transform: scale(1.055);
-    background-color: #e83c8c;
+  background-color: #bb1f68;
 }
 
 .square3 {
-    height: 210px;
-    width: 160px;
-    background-color: #f8f7f1;
-    border-radius: 10px;
-    transition: transform .2s;
-    transition: background-color .2s;
-    margin: 10px;
+  height: 260px;
+  width: 210px;
+  background-color: #f8f7f1;
+  border-radius: 10px;
+  transition: background-color .2s;
+  margin: 15px;
 }
 
 .square3:hover {
-    transform: scale(1.055);
-    background-color: #88bc04;
+  background-color: #287749;
 }
 
 .square4 {
-    height: 210px;
-    width: 160px;
-    background-color: #f8f7f1;
-    border-radius: 10px;
-    transition: transform .2s;
-    transition: background-color .2s;
-    margin: 10px;
+  height: 260px;
+  width: 210px;
+  background-color: #f8f7f1;
+  border-radius: 10px;
+  transition: background-color .2s;
+  margin: 15px;
 }
 
 .square4:hover {
-    transform: scale(1.055);
-    background-color: #903c84;
+  background-color: #8f262f;
 }
