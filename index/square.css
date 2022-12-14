@@ -1,71 +1,70 @@
 #container {
-  display: flex;
-  justify-content: center;
-  margin-top: 400px;
-}
-
-.square {
-  height: 260px;
-  width: 210px;
-  background-color: #f8f7f1;
-  border-radius: 10px;
-  transition: background-color .2s;
-  margin: 15px;
-}
-
-.square:hover {
-  transform: scale(1.025);
-  background-color: #045255;
-}
-
-.square1 {
-  height: 260px;
-  width: 210px;
-  background-color: #f8f7f1;
-  border-radius: 10px;
-  transition: background-color .2s;
-  margin: 15px;
-}
-
-.square1:hover {
-  background-color: #ffb404;
-}
-
-.square2 {
-  height: 260px;
-  width: 210px;
-  background-color: #f8f7f1;
-  border-radius: 10px;
-  transition: background-color .2s;
-  margin: 15px;
-}
-
-.square2:hover {
-  background-color: #bb1f68;
-}
-
-.square3 {
-  height: 260px;
-  width: 210px;
-  background-color: #f8f7f1;
-  border-radius: 10px;
-  transition: background-color .2s;
-  margin: 15px;
-}
-
-.square3:hover {
-  background-color: #287749;
-}
-
-.square4 {
-  height: 260px;
-  width: 210px;
-  background-color: #f8f7f1;
-  border-radius: 10px;
-  transition: background-color .2s;
-  margin: 15px;
-}
-
-.square4:hover {
-  background-color: #8f262f;
-}
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+  }
+  
+  .square {
+    height: 260px;
+    width: 210px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: background-color .2s;
+    margin: 15px;
+  }
+  
+  .square:hover {
+    background-color: #84bd00;
+  }
+  
+  .square1 {
+    height: 260px;
+    width: 210px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: background-color .2s;
+    margin: 15px;
+  }
+  
+  .square1:hover {
+    background-color: #e63888;
+  }
+  
+  .square2 {
+    height: 260px;
+    width: 210px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: background-color .2s;
+    margin: 15px;
+  }
+  
+  .square2:hover {
+    background-color: #ffb500;
+  }
+  
+  .square3 {
+    height: 260px;
+    width: 210px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: background-color .2s;
+    margin: 15px;
+  }
+  
+  .square3:hover {
+    background-color: #012169;
+  }
+  
+  .square4 {
+    height: 260px;
+    width: 210px;
+    background-color: #f8f7f1;
+    border-radius: 10px;
+    transition: background-color .2s;
+    margin: 15px;
+  }
+  
+  .square4:hover {
+    background-color: #8e3a80;
+  }
