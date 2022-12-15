@@ -4,26 +4,26 @@
     margin-top: 400px;
   }
   
-  .square {
-    height: 260px;
-    width: 210px;
+.square {
+    height: 240px;
+    width: 200px;   
     background-color: #f8f7f1;
     border-radius: 10px;
     transition: background-color .2s;
-    margin: 15px;
-  }
+    margin: 14px;
+}
   
-  .square:hover {
+.square:hover{
     background-color: #84bd00;
-  }
+}
   
   .square1 {
-    height: 260px;
-    width: 210px;
+    height: 240px;
+    width: 200px;
     background-color: #f8f7f1;
     border-radius: 10px;
     transition: background-color .2s;
-    margin: 15px;
+    margin: 14px;
   }
   
   .square1:hover {
@@ -31,12 +31,12 @@
   }
   
   .square2 {
-    height: 260px;
-    width: 210px;
+    height: 240px;
+    width: 200px;
     background-color: #f8f7f1;
     border-radius: 10px;
     transition: background-color .2s;
-    margin: 15px;
+    margin: 14px;
   }
   
   .square2:hover {
@@ -44,12 +44,12 @@
   }
   
   .square3 {
-    height: 260px;
-    width: 210px;
+    height: 240px;
+    width: 200px;
     background-color: #f8f7f1;
     border-radius: 10px;
     transition: background-color .2s;
-    margin: 15px;
+    margin: 14px;
   }
   
   .square3:hover {
@@ -57,12 +57,12 @@
   }
   
   .square4 {
-    height: 260px;
-    width: 210px;
+    height: 240px;
+    width: 200px;
     background-color: #f8f7f1;
     border-radius: 10px;
     transition: background-color .2s;
-    margin: 15px;
+    margin: 14px;
   }
   
   .square4:hover {
