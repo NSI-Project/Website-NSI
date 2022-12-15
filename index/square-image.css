@@ -1,0 +1,14 @@
+.img{
+    background-image: url(dossier.png);
+    height: 112px;
+    width: 112px;
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    transition: opacity 0.2s;
+    opacity: 1;
+}
+.square:hover img{
+    opacity: 0;
+}
