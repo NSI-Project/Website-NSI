@@ -1,0 +1,25 @@
+#video-container {
+    display: block;
+    overflow: hidden;
+    z-index: 0;
+    user-select: none;
+}
+
+.estaca-video {
+    margin-bottom: -238.800px;
+    margin-top: -238.800px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .estaca-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .estaca-video {
+        width: auto;
+        height: 100%;
+    }
+}
