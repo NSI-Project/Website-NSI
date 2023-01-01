@@ -13,7 +13,6 @@ body {
     display: flex;
     user-select: none;
     position: -webkit-sticky;
-    position: sticky;
     position: fixed;
     width: 100%;
     top: 0;
