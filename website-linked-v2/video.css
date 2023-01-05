@@ -1,0 +1,11 @@
+#video-container {
+    display: block;
+    overflow: hidden;
+    z-index: 0;
+    user-select: none;
+}
+
+.estaca-video {
+    margin-bottom: -238.800px;
+    margin-top: -238.800px;
+}

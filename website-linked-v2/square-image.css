@@ -1,0 +1,74 @@
+.square .square-image {
+    margin: 40px auto 28px;
+    height: 113px;
+    width: 113px;
+    max-width: 100%;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: opacity.3s;
+}
+
+.square:hover .square-image {
+    opacity: 0;
+}
+
+.square1 .square1-image {
+    margin: 40px auto 28px;
+    height: 113px;
+    width: 113px;
+    max-width: 100%;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: opacity.3s;
+}
+
+.square1:hover .square1-image {
+    opacity: 0;
+}
+
+.square2 .square2-image {
+    margin: 40px auto 28px;
+    height: 113px;
+    width: 113px;
+    max-width: 50%;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: opacity.3s;
+}
+
+.square2:hover .square2-image {
+    opacity: 0;
+}
+
+.square3 .square3-image {
+    margin: 40px auto 28px;
+    height: 113px;
+    width: 113px;
+    max-width: 100%;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: opacity.3s;
+}
+
+.square3:hover .square3-image {
+    opacity: 0;
+}
+
+.square4 .square4-image {
+    margin: 40px auto 28px;
+    height: 113px;
+    width: 113px;
+    max-width: 100%;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: opacity.3s;
+}
+
+.square4:hover .square4-image {
+    opacity: 0;
+}
