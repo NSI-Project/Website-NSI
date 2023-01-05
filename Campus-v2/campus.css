@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: space;
+    user-select: none;
+}
+
+@font-face {
+    font-family: space;
+    src: url(SpaceGrotesk-Regular.ttf);
+}
+
+#container{
+    width: 728px;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;  
+}
+
+h1 {
+    color: #333;
+}
+
+#titre{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    font-size: 270%;
+}
+
+#ptitre{
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 200%;
+    
+}
+
+#box {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 400px;
+    color: #333;
+}
+
+.campus {
+    transition-duration: .15s;
+}
+
+.campus:hover {
+    color: #0092bc;
+}
+
+a { 
+    text-decoration: none;
+}
+
+#box2 {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 400px;
+    color: #333;
+}
+
+#box3 {
+    width: 3000px;
+    height: 200px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 400px;
+    color:#333
+}
+
+p {
+    margin-bottom: 3px;
+}
+
+li{
+    color: #012169;
+    margin-left: 20px;
+    line-height: 300%;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #012169;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;  
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    width: 60%;
+    height: 60%;
+}
+
+#txtimg {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+}
