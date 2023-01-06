@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: space;
+    z-index: 0;
+}
+
+@font-face {
+    font-family: space;
+    src: url(SpaceGrotesk-Regular.ttf);
+}
+
+.wrapper {
+    max-width: 50rem;
+    width: 100%;
+}
+
+.tabs {
+    position: relative;
+    margin: 3rem 0;
+    background: #fff;
+    height: 14.75rem;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.tabs::before,
+.tabs::after {
+    content: "";
+    display: table;
+}
+
+.tabs::after {
+    clear: both;
+}
+
+.tab {
+    float: left;
+}
+
+.tab-switch {
+    display: none;
+}
+
+.tab-label {
+    width: 150px;
+    text-align: center;
+    position: relative;
+    display: block;
+    line-height: 2.75em;
+    height: 3em;
+    padding: 0 1.618em;
+    background: #fff;
+    color: #ffb500;
+    cursor: pointer;
+    top: 0;
+    transition: all 0.25s;
+}
+
+.tab-label:hover {
+    top: -0.40rem;
+    transition: top 0.25s;
+}
+
+.tab-content {
+    height: 12rem;
+    position: absolute;
+    z-index: 1;
+    top: 2.75em;
+    left: 0;
+    padding: 1.618rem;
+    opacity: 0;
+    transition: all 0.35s;
+    width: 1600px;
+}
+
+.tab-switch:checked+.tab-label {
+    background: #ffb500;
+    color: #fff;
+    transition: all 0.35s;
+    z-index: 1;
+    top: -0.0625rem;
+    border-radius: 10px;
+}
+
+.tab-switch:checked+label+.tab-content {
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.35s;
+}
+
+h1,
+h2 {
+    color: #ffd874;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#hr {
+    margin-top: 35px;
+}
+
+#hrr {
+    max-width: 720px;
+    margin-bottom: 40px;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+hr {
+    border: 1px solid #666;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#barre {
+    margin-top: 35px;
+}
+
+#barre2 {
+    margin-top: 35px;
+}
+
+section {
+    font-size: 120%;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('voivoi.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#containerTextIllustration {
+    width: 510px;
+    height: 220px;
+    border-radius: 15px;
+    margin-right: 900px;
+    margin-bottom: 250px;
+    background-color: none;
+    color: white;
+    font-weight: 600;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    padding: 10px 0 0 10px;
+    color: #ffd874;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#ParagrapheIllustration {
+    padding: 10px 0 0 10px;
+    animation-duration: 1s;
+    animation-name: transition_anim;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_anim {
+    0% {
+        opacity: 0;
+        transform: translateY(65px);
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
