@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'space-grotesk-regular';
+    src: url(SpaceGrotesk-Regular.ttf)
+}
+
+body {
+    margin: 0;
+}
+
+#main-container {
+    background-color: #012169;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.logo-image {
+    margin: auto;
+    height: 55px;
+    width: 55px;
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -2px;
+    cursor: pointer;
+}
+
+.navlinks {
+    font-family: 'space-grotesk-regular';
+    font-size: 14px;
+    display: block;
+    padding: 6px 8px;
+    border-radius: 24px;
+    color: white;
+    transition: background-color .2s ease 0s, transform .2s;
+    margin: 4px;
+}
+
+.navlinks:hover {
+    cursor: pointer;
+    background-color: #384c84;
+    transform: scale(1.05);
+}
